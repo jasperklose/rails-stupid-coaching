@@ -1,6 +1,7 @@
-<h1>Answer</h1>
-
-<%= @answer %>
-<br>
-<br>
-<%= link_to "Ask another question", ask_path %>
+<div class="container">
+  <h1>The Coach says:</h1>
+  <br>
+  <p id="answer"><%= @answer %></p>
+  <br>
+  <a href="/ask" id="submit-button">Ask another question!</a>
+</div>
